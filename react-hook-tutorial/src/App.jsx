@@ -4,6 +4,7 @@ import HookUseEffect from './components/HookUseEffect';
 import HookUseState from './components/HookUseState'
 import HookUseStateArray from './components/HookUseStateArray';
 import HookUseObject from './components/HookUseStateObject';
+import ComponentC from './components/ComponentC';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <HookUseStateArray />
       <HookUseEffect/>
       <HookUseEffect2/>
+      <ComponentC/>
     </>
   )
 }
