@@ -6,7 +6,8 @@ function HookUseObject() {
 
     return (
         <div>
-            <h2>HookUseObject Example</h2>
+            <h2>Hook UseState Object Example:</h2>
+            <hr/>
             <form>
                 {/* Input for first name */}
                 <input

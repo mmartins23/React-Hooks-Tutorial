@@ -6,6 +6,8 @@ export default function HookUseState() {
     return (
 
         <div>
+            <h2>UseState Example:</h2>
+            <hr/>
             <p>{count}</p>
             <button onClick={() => setCount(prevCount => prevCount + 1)}>Increment</button>
             <button onClick={() => setCount(prevCount => prevCount - 1)}>Decrement</button>
