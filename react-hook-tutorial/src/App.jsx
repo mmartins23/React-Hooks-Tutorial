@@ -1,5 +1,5 @@
 import './App.css'
-import HookCounterOne from './components/HookCounterOne';
+import HookUseEffect from './components/HookUseEffect';
 import HookUseState from './components/HookUseState'
 import HookUseStateArray from './components/HookUseStateArray';
 import HookUseObject from './components/HookUseStateObject';
@@ -11,7 +11,7 @@ function App() {
       <HookUseState />
       <HookUseObject />
       <HookUseStateArray />
-      <HookCounterOne/>
+      <HookUseEffect/>
     </>
   )
 }

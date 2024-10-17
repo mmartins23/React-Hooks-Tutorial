@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export default function HookCounterOne() {
+export default function HookUseEffect() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState('');
 
@@ -10,6 +10,17 @@ export default function HookCounterOne() {
     document.title = `You clicked ${count} times`;
   }, [count]); // Only re-run the effect if 'count' changes
 
+  // useEffect with cleanup
+  useEffect(() => {
+    // Effect logic here (e.g., API call, subscription)
+    console.log('Effect runs only once, on component mount');
+  
+    // cleanup function
+    return () => {
+      console.log('Cleanup on unmount');
+    };
+  }, []);  // Empty array means the effect will run only on mount
+  
   return (
     <div>
       <h2>useEffect after render</h2>
