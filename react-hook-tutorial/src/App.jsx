@@ -5,6 +5,7 @@ import HookUseState from './components/HookUseState'
 import HookUseStateArray from './components/HookUseStateArray';
 import HookUseObject from './components/HookUseStateObject';
 import ComponentC from './components/ComponentC';
+import HookUseReducer from './components/HookUseReducer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <HookUseEffect/>
       <HookUseEffect2/>
       <ComponentC/>
+      <HookUseReducer/>
     </>
   )
 }
