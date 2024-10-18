@@ -8,6 +8,7 @@ import ComponentC from './components/ComponentC';
 import HookUseReducer from './components/HookUseReducer';
 import HookUseMemo from './components/HookUseMemo';
 import HookUseCallback from './components/HookUseCallback';
+import FocusInput from './components/FocusInput';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <HookUseReducer/> */}
       <HookUseMemo/>
       <HookUseCallback/>
+      <FocusInput/>
     </>
   )
 }
