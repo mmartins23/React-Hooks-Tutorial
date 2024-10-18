@@ -6,18 +6,22 @@ import HookUseStateArray from './components/HookUseStateArray';
 import HookUseObject from './components/HookUseStateObject';
 import ComponentC from './components/ComponentC';
 import HookUseReducer from './components/HookUseReducer';
+import HookUseMemo from './components/HookUseMemo';
+import HookUseCallback from './components/HookUseCallback';
 
 function App() {
 
   return (
     <>
-      <HookUseState />
+      {/* <HookUseState />
       <HookUseObject />
       <HookUseStateArray />
       <HookUseEffect/>
       <HookUseEffect2/>
       <ComponentC/>
-      <HookUseReducer/>
+      <HookUseReducer/> */}
+      <HookUseMemo/>
+      <HookUseCallback/>
     </>
   )
 }
